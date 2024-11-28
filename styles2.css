@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.calculadora{
+    display: inline-block;
+}
+
+.calculadora input[type="text"]{
+    height: 50px;
+    margin-bottom: 4px;
+}
+
+.botones{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+.botones button{
+    background-color: bisque;
+    height: 40px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.botones button:hover{
+    background-color: rgb(182, 148, 107);
+}
+
+.botones .reset{
+    grid-column: span 4;
+    background-color: red;
+}
+
+.botones .reset:hover{
+    background-color: rgb(161, 100, 100);
+}
