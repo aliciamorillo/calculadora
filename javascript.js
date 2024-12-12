@@ -14,3 +14,11 @@ function calcular() {
 function limpiarResultado() {
     document.getElementById("result").value = "";
 }
+
+function limpiarCosas() {
+    document.getElementById("result").value = "";
+}
+
+function limpiarMasCosas() {
+    document.getElementById("result").value = "";
+}
